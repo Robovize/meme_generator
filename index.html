@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meme Generator</title>
+</head>
+
+<body>
+
+
+
+    <h1>I CAN HAZ MEMEZ!</h1>
+    <h2>Fill out the form to start creating memes!</h2>
+
+
+
+
+
+
+    <form class="#meme-form">
+        <div>
+            <label>Top Text</label>
+            <input type="text" id="form-top" value="Header text">
+        </div>
+        <div>
+            <label>Bottom Text</label>
+            <input type="text" id="form-bot" value="Footer text">
+        </div>
+        <div>
+            <label>Image URL</label>
+            <input type="text" id="form-image"
+                value="https://www.meme-arsenal.com/memes/cf3ebd5a24c102677e442c3cfca57917.jpg">
+        </div>
+
+        <div>
+            <button type="button" id="generate-button">Generate</button>
+        </div>
+    </form>
+
+
+    <!-- canvas container start-->
+    <div class="canvas-container">
+        <canvas class="meme-canvas">
+
+        </canvas>
+
+
+        
+    </div>
+    <!-- canvas container end-->
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
