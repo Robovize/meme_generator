@@ -15,6 +15,7 @@ const form = {
 
 i = 0;
 
+
 function generateCanvasMeme() {
 
     body = document.querySelector('body');
